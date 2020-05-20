@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {PrintService} from './print.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular9-print-to-template';
+  title = 'angular-print-service';
+
+  constructor(public printService: PrintService) { }
+
+  onPrintPostings() {
+    const postingsIds = ['101', '102'];
+    this.printService
+      .printDocument('postings', postingsIds);
+  }
 }
