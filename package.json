@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~9.1.7",
     "@angular/router": "~9.1.7",
     "bootstrap": "^4.5.0",
+    "pspdfkit": "https://customers.pspdfkit.com/npm/TRIAL-vzBU-C9egUXEJCZ3aB8zTZqniaRjdXmWoy86CQls85ucS6N2FC-SmC1Uh_PSkbQjKbtrBYDAUKiCwZaWr2ecZ-XNX0drEAF5fTImilHviu0/latest.tar.gz",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
